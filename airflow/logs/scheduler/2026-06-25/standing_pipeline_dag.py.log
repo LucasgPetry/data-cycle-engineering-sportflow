@@ -474,3 +474,59 @@
 [2026-06-25T03:56:51.264+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:51.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:56:51.280+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:51.280+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:56:51.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.073 seconds
+[2026-06-25T03:57:21.973+0000] {processor.py:186} INFO - Started process (PID=20577) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:57:21.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T03:57:21.978+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:21.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:57:22.988+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:57:23.011+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:23.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:57:23.032+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:23.031+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:57:23.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.090 seconds
+[2026-06-25T03:57:53.975+0000] {processor.py:186} INFO - Started process (PID=20594) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:57:53.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T03:57:53.981+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:53.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:57:55.030+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:57:55.056+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:55.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:57:55.083+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:55.082+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:57:55.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.150 seconds
+[2026-06-25T03:58:26.174+0000] {processor.py:186} INFO - Started process (PID=20611) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:58:26.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T03:58:26.181+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:26.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:58:28.150+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:58:28.175+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:28.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:58:28.199+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:28.199+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:58:28.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 2.073 seconds
+[2026-06-25T03:59:01.635+0000] {processor.py:186} INFO - Started process (PID=20629) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:59:01.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T03:59:01.641+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:01.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:59:02.921+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:59:02.942+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:02.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:59:02.963+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:02.963+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:59:02.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.376 seconds
+[2026-06-25T03:59:34.526+0000] {processor.py:186} INFO - Started process (PID=20646) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:59:34.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T03:59:34.538+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:34.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:59:35.862+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T03:59:35.889+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:35.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:59:35.933+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:35.932+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:59:35.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.477 seconds
+[2026-06-25T04:00:07.089+0000] {processor.py:186} INFO - Started process (PID=20663) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:00:07.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T04:00:07.094+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:07.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:00:08.084+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:00:08.100+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:08.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:00:08.118+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:08.118+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:00:08.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.057 seconds
+[2026-06-25T04:00:38.240+0000] {processor.py:186} INFO - Started process (PID=20680) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:00:38.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T04:00:38.245+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:38.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:00:39.221+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:00:39.238+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:39.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:00:39.254+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:39.254+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:00:39.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 1.042 seconds
+[2026-06-25T04:01:11.425+0000] {processor.py:186} INFO - Started process (PID=20697) to work on /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:01:11.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/standing_pipeline_dag.py for tasks to queue
+[2026-06-25T04:01:11.429+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:11.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:01:12.246+0000] {processor.py:925} INFO - DAG(s) 'standing_pipeline_dag' retrieved from /opt/airflow/dags/standing_pipeline_dag.py
+[2026-06-25T04:01:12.264+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:12.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:01:12.277+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:12.277+0000] {dag.py:4180} INFO - Setting next_dagrun for standing_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:01:12.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/standing_pipeline_dag.py took 0.875 seconds

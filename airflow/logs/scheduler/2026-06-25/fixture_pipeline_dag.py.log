@@ -481,3 +481,59 @@
 [2026-06-25T03:56:53.615+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:53.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:56:53.637+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:53.636+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:56:53.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.172 seconds
+[2026-06-25T03:57:24.171+0000] {processor.py:186} INFO - Started process (PID=20579) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:57:24.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T03:57:24.176+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:24.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:57:25.228+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:57:25.245+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:25.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:57:25.263+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:25.262+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:57:25.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.128 seconds
+[2026-06-25T03:57:56.294+0000] {processor.py:186} INFO - Started process (PID=20596) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:57:56.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T03:57:56.302+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:56.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:57:57.645+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:57:57.661+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:57.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:57:57.682+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:57.681+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:57:57.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.419 seconds
+[2026-06-25T03:58:29.466+0000] {processor.py:186} INFO - Started process (PID=20613) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:58:29.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T03:58:29.476+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:29.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:58:30.590+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:58:30.606+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:30.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:58:30.622+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:30.622+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:58:30.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.185 seconds
+[2026-06-25T03:59:04.108+0000] {processor.py:186} INFO - Started process (PID=20631) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:59:04.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T03:59:04.113+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:04.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:59:05.089+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:59:05.158+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:05.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:59:05.213+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:05.213+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:59:05.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.139 seconds
+[2026-06-25T03:59:37.128+0000] {processor.py:186} INFO - Started process (PID=20648) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:59:37.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T03:59:37.135+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:37.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:59:38.014+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T03:59:38.029+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:38.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:59:38.045+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:38.045+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:59:38.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 0.948 seconds
+[2026-06-25T04:00:09.278+0000] {processor.py:186} INFO - Started process (PID=20665) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:00:09.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T04:00:09.286+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:09.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:00:10.363+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:00:10.384+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:10.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:00:10.408+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:10.407+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:00:10.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.169 seconds
+[2026-06-25T04:00:41.480+0000] {processor.py:186} INFO - Started process (PID=20682) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:00:41.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T04:00:41.485+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:41.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:00:42.779+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:00:42.819+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:42.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:00:42.853+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:42.853+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:00:42.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.419 seconds
+[2026-06-25T04:01:13.401+0000] {processor.py:186} INFO - Started process (PID=20699) to work on /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:01:13.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fixture_pipeline_dag.py for tasks to queue
+[2026-06-25T04:01:13.405+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:13.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:01:14.485+0000] {processor.py:925} INFO - DAG(s) 'fixture_pipeline_dag' retrieved from /opt/airflow/dags/fixture_pipeline_dag.py
+[2026-06-25T04:01:14.504+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:14.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:01:14.523+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:14.523+0000] {dag.py:4180} INFO - Setting next_dagrun for fixture_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:01:14.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fixture_pipeline_dag.py took 1.151 seconds

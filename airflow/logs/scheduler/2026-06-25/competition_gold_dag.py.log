@@ -467,3 +467,66 @@
 [2026-06-25T03:56:31.128+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:31.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:56:31.145+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:31.145+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:56:31.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.814 seconds
+[2026-06-25T03:57:02.459+0000] {processor.py:186} INFO - Started process (PID=20570) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:57:02.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T03:57:02.463+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:02.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:57:03.109+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:57:03.124+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:03.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:57:03.140+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:03.140+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:57:03.161+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.708 seconds
+[2026-06-25T03:57:34.088+0000] {processor.py:186} INFO - Started process (PID=20587) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:57:34.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T03:57:34.095+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:34.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:57:34.722+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:57:34.739+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:34.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:57:34.752+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:57:34.751+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:57:34.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.696 seconds
+[2026-06-25T03:58:06.534+0000] {processor.py:186} INFO - Started process (PID=20604) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:58:06.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T03:58:06.539+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:06.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:58:07.276+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:58:07.295+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:07.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:58:07.312+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:07.312+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:58:07.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.812 seconds
+[2026-06-25T03:58:38.211+0000] {processor.py:186} INFO - Started process (PID=20621) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:58:38.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T03:58:38.216+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:38.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:58:38.842+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:58:38.858+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:38.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:58:38.875+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:58:38.875+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:58:38.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.696 seconds
+[2026-06-25T03:59:11.959+0000] {processor.py:186} INFO - Started process (PID=20639) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:59:11.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T03:59:11.964+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:11.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:59:12.793+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:59:12.814+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:12.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:59:12.840+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:12.839+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:59:12.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.932 seconds
+[2026-06-25T03:59:44.821+0000] {processor.py:186} INFO - Started process (PID=20656) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:59:44.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T03:59:44.827+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:44.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:59:45.563+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T03:59:45.578+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:45.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:59:45.596+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:59:45.596+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:59:45.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.807 seconds
+[2026-06-25T04:00:18.412+0000] {processor.py:186} INFO - Started process (PID=20673) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:00:18.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T04:00:18.418+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:18.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:00:19.184+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:00:19.207+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:19.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:00:19.231+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:19.231+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:00:19.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.861 seconds
+[2026-06-25T04:00:50.375+0000] {processor.py:186} INFO - Started process (PID=20690) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:00:50.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T04:00:50.381+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:50.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:00:51.065+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:00:51.081+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:51.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:00:51.097+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:00:51.097+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:00:51.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.755 seconds
+[2026-06-25T04:01:22.502+0000] {processor.py:186} INFO - Started process (PID=20707) to work on /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:01:22.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_gold_dag.py for tasks to queue
+[2026-06-25T04:01:22.508+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:22.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:01:23.274+0000] {processor.py:925} INFO - DAG(s) 'competition_gold_dag' retrieved from /opt/airflow/dags/competition_gold_dag.py
+[2026-06-25T04:01:23.291+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:23.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T04:01:23.307+0000] {logging_mixin.py:190} INFO - [2026-06-25T04:01:23.307+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_gold_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T04:01:23.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_gold_dag.py took 0.834 seconds
