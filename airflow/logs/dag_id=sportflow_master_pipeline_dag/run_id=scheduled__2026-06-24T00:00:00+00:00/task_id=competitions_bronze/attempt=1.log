@@ -1,0 +1,19 @@
+[2026-06-25T03:14:01.420+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-25T03:14:01.479+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.competitions_bronze scheduled__2026-06-24T00:00:00+00:00 [queued]>
+[2026-06-25T03:14:01.542+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.competitions_bronze scheduled__2026-06-24T00:00:00+00:00 [queued]>
+[2026-06-25T03:14:01.551+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-25T03:14:01.680+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): competitions_bronze> on 2026-06-24 00:00:00+00:00
+[2026-06-25T03:14:01.827+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=18885) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-25T03:14:01.878+0000] {standard_task_runner.py:72} INFO - Started process 18899 to run task
+[2026-06-25T03:14:01.925+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sportflow_master_pipeline_dag', 'competitions_bronze', 'scheduled__2026-06-24T00:00:00+00:00', '--job-id', '123', '--raw', '--subdir', 'DAGS_FOLDER/sportflow_master_pipeline_dag.py', '--cfg-path', '/tmp/tmp2rc9_chg']
+[2026-06-25T03:14:02.009+0000] {standard_task_runner.py:105} INFO - Job 123: Subtask competitions_bronze
+[2026-06-25T03:14:02.468+0000] {task_command.py:467} INFO - Running <TaskInstance: sportflow_master_pipeline_dag.competitions_bronze scheduled__2026-06-24T00:00:00+00:00 [running]> on host 63be96c18349
+[2026-06-25T03:14:02.836+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sportflow_master_pipeline_dag' AIRFLOW_CTX_TASK_ID='competitions_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-06-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-24T00:00:00+00:00'
+[2026-06-25T03:14:02.844+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-25T03:14:04.512+0000] {logging_mixin.py:190} INFO - {'records': 4, 'object_name': 'competitions/2026/06/25/competitions_20260625_031404.json'}
+[2026-06-25T03:14:04.515+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-25T03:14:04.540+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-25T03:14:04.543+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=sportflow_master_pipeline_dag, task_id=competitions_bronze, run_id=scheduled__2026-06-24T00:00:00+00:00, execution_date=20260624T000000, start_date=20260625T031401, end_date=20260625T031404
+[2026-06-25T03:14:04.669+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-25T03:14:04.768+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-25T03:14:04.783+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

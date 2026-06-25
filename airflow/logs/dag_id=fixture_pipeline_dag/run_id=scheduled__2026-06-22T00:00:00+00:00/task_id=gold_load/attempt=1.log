@@ -1,0 +1,38 @@
+[2026-06-23T18:04:14.396+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-23T18:04:14.407+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fixture_pipeline_dag.gold_load scheduled__2026-06-22T00:00:00+00:00 [queued]>
+[2026-06-23T18:04:14.415+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fixture_pipeline_dag.gold_load scheduled__2026-06-22T00:00:00+00:00 [queued]>
+[2026-06-23T18:04:14.417+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-23T18:04:14.430+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): gold_load> on 2026-06-22 00:00:00+00:00
+[2026-06-23T18:04:14.440+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fixture_pipeline_dag', 'gold_load', 'scheduled__2026-06-22T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/fixture_pipeline_dag.py', '--cfg-path', '/tmp/tmptl57mfwq']
+[2026-06-23T18:04:14.444+0000] {standard_task_runner.py:105} INFO - Job 28: Subtask gold_load
+[2026-06-23T18:04:14.443+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8145) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-23T18:04:14.447+0000] {standard_task_runner.py:72} INFO - Started process 8159 to run task
+[2026-06-23T18:04:14.519+0000] {task_command.py:467} INFO - Running <TaskInstance: fixture_pipeline_dag.gold_load scheduled__2026-06-22T00:00:00+00:00 [running]> on host d817d2ea344d
+[2026-06-23T18:04:14.582+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fixture_pipeline_dag' AIRFLOW_CTX_TASK_ID='gold_load' AIRFLOW_CTX_EXECUTION_DATE='2026-06-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-22T00:00:00+00:00'
+[2026-06-23T18:04:14.585+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-23T18:04:14.665+0000] {logging_mixin.py:190} INFO - {'records': 9, 'table': 'gold.fact_fixtures'}
+[2026-06-23T18:04:14.666+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-23T18:04:14.671+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-23T18:04:14.673+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fixture_pipeline_dag, task_id=gold_load, run_id=scheduled__2026-06-22T00:00:00+00:00, execution_date=20260622T000000, start_date=20260623T180414, end_date=20260623T180414
+[2026-06-23T18:04:14.705+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-23T18:04:14.714+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-23T18:04:14.716+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-06-23T19:44:48.309+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-23T19:44:48.329+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fixture_pipeline_dag.gold_load scheduled__2026-06-22T00:00:00+00:00 [queued]>
+[2026-06-23T19:44:48.340+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fixture_pipeline_dag.gold_load scheduled__2026-06-22T00:00:00+00:00 [queued]>
+[2026-06-23T19:44:48.342+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-23T19:44:48.360+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): gold_load> on 2026-06-22 00:00:00+00:00
+[2026-06-23T19:44:48.377+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fixture_pipeline_dag', 'gold_load', 'scheduled__2026-06-22T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/fixture_pipeline_dag.py', '--cfg-path', '/tmp/tmp9b9py7_8']
+[2026-06-23T19:44:48.381+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=477) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-23T19:44:48.384+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask gold_load
+[2026-06-23T19:44:48.386+0000] {standard_task_runner.py:72} INFO - Started process 491 to run task
+[2026-06-23T19:44:48.463+0000] {task_command.py:467} INFO - Running <TaskInstance: fixture_pipeline_dag.gold_load scheduled__2026-06-22T00:00:00+00:00 [running]> on host 63be96c18349
+[2026-06-23T19:44:48.532+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fixture_pipeline_dag' AIRFLOW_CTX_TASK_ID='gold_load' AIRFLOW_CTX_EXECUTION_DATE='2026-06-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-22T00:00:00+00:00'
+[2026-06-23T19:44:48.534+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-23T19:44:48.626+0000] {logging_mixin.py:190} INFO - {'records': 9, 'table': 'gold.fact_fixtures'}
+[2026-06-23T19:44:48.628+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-23T19:44:48.634+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-23T19:44:48.635+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fixture_pipeline_dag, task_id=gold_load, run_id=scheduled__2026-06-22T00:00:00+00:00, execution_date=20260622T000000, start_date=20260623T194448, end_date=20260623T194448
+[2026-06-23T19:44:48.686+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-23T19:44:48.697+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-23T19:44:48.698+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

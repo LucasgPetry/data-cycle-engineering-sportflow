@@ -1,0 +1,19 @@
+[2026-06-25T03:16:36.092+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-25T03:16:36.102+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: season_pipeline_dag.bronze_ingestion scheduled__2026-06-24T00:00:00+00:00 [queued]>
+[2026-06-25T03:16:36.110+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: season_pipeline_dag.bronze_ingestion scheduled__2026-06-24T00:00:00+00:00 [queued]>
+[2026-06-25T03:16:36.112+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-25T03:16:36.132+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): bronze_ingestion> on 2026-06-24 00:00:00+00:00
+[2026-06-25T03:16:36.149+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'season_pipeline_dag', 'bronze_ingestion', 'scheduled__2026-06-24T00:00:00+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/seasons_pipeline_dag.py', '--cfg-path', '/tmp/tmph7swg09_']
+[2026-06-25T03:16:36.153+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=18981) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-25T03:16:36.154+0000] {standard_task_runner.py:105} INFO - Job 129: Subtask bronze_ingestion
+[2026-06-25T03:16:36.155+0000] {standard_task_runner.py:72} INFO - Started process 18995 to run task
+[2026-06-25T03:16:36.216+0000] {task_command.py:467} INFO - Running <TaskInstance: season_pipeline_dag.bronze_ingestion scheduled__2026-06-24T00:00:00+00:00 [running]> on host 63be96c18349
+[2026-06-25T03:16:36.293+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='season_pipeline_dag' AIRFLOW_CTX_TASK_ID='bronze_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-06-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-24T00:00:00+00:00'
+[2026-06-25T03:16:36.297+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-25T03:16:37.587+0000] {logging_mixin.py:190} INFO - {'records': 25, 'object_name': 'seasons/2026/06/25/seasons_20260625_031637.json'}
+[2026-06-25T03:16:37.589+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-25T03:16:37.600+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-25T03:16:37.603+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=season_pipeline_dag, task_id=bronze_ingestion, run_id=scheduled__2026-06-24T00:00:00+00:00, execution_date=20260624T000000, start_date=20260625T031636, end_date=20260625T031637
+[2026-06-25T03:16:37.706+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-25T03:16:37.746+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-25T03:16:37.757+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

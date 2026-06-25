@@ -1,0 +1,19 @@
+[2026-06-24T02:45:21.827+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-24T02:45:21.845+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fixture_pipeline_dag.silver_transformation scheduled__2026-06-23T00:00:00+00:00 [queued]>
+[2026-06-24T02:45:21.854+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fixture_pipeline_dag.silver_transformation scheduled__2026-06-23T00:00:00+00:00 [queued]>
+[2026-06-24T02:45:21.856+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-24T02:45:21.870+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): silver_transformation> on 2026-06-23 00:00:00+00:00
+[2026-06-24T02:45:21.882+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fixture_pipeline_dag', 'silver_transformation', 'scheduled__2026-06-23T00:00:00+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/fixture_pipeline_dag.py', '--cfg-path', '/tmp/tmpe27vncgo']
+[2026-06-24T02:45:21.886+0000] {standard_task_runner.py:105} INFO - Job 58: Subtask silver_transformation
+[2026-06-24T02:45:21.886+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1965) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-24T02:45:21.888+0000] {standard_task_runner.py:72} INFO - Started process 1979 to run task
+[2026-06-24T02:45:21.948+0000] {task_command.py:467} INFO - Running <TaskInstance: fixture_pipeline_dag.silver_transformation scheduled__2026-06-23T00:00:00+00:00 [running]> on host 63be96c18349
+[2026-06-24T02:45:22.007+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fixture_pipeline_dag' AIRFLOW_CTX_TASK_ID='silver_transformation' AIRFLOW_CTX_EXECUTION_DATE='2026-06-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-23T00:00:00+00:00'
+[2026-06-24T02:45:22.010+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-24T02:45:22.101+0000] {logging_mixin.py:190} INFO - {'records': 9, 'table': 'silver.fixtures'}
+[2026-06-24T02:45:22.103+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-24T02:45:22.111+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-24T02:45:22.114+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fixture_pipeline_dag, task_id=silver_transformation, run_id=scheduled__2026-06-23T00:00:00+00:00, execution_date=20260623T000000, start_date=20260624T024521, end_date=20260624T024522
+[2026-06-24T02:45:22.146+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-24T02:45:22.161+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-24T02:45:22.170+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,17 @@
+[project]
+name = "projeto-ciclo-de-vida-engenharia-de-dados"
+version = "0.1.0"
+description = "Complete data cycle - Data Engineering"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "minio",
+    "pandas",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "streamlit",
+    "plotly",
+]

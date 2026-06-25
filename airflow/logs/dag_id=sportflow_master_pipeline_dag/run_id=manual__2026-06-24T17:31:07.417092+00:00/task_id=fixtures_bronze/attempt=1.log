@@ -1,0 +1,49 @@
+[2026-06-24T17:31:39.983+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-24T17:31:39.993+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.fixtures_bronze manual__2026-06-24T17:31:07.417092+00:00 [queued]>
+[2026-06-24T17:31:40.001+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.fixtures_bronze manual__2026-06-24T17:31:07.417092+00:00 [queued]>
+[2026-06-24T17:31:40.004+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-24T17:31:40.023+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fixtures_bronze> on 2026-06-24 17:31:07.417092+00:00
+[2026-06-24T17:31:40.036+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sportflow_master_pipeline_dag', 'fixtures_bronze', 'manual__2026-06-24T17:31:07.417092+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/sportflow_master_pipeline_dag.py', '--cfg-path', '/tmp/tmpfrc5n6z9']
+[2026-06-24T17:31:40.039+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=16767) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-24T17:31:40.040+0000] {standard_task_runner.py:105} INFO - Job 111: Subtask fixtures_bronze
+[2026-06-24T17:31:40.042+0000] {standard_task_runner.py:72} INFO - Started process 16781 to run task
+[2026-06-24T17:31:40.116+0000] {task_command.py:467} INFO - Running <TaskInstance: sportflow_master_pipeline_dag.fixtures_bronze manual__2026-06-24T17:31:07.417092+00:00 [running]> on host 63be96c18349
+[2026-06-24T17:31:40.186+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sportflow_master_pipeline_dag' AIRFLOW_CTX_TASK_ID='fixtures_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-06-24T17:31:07.417092+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-24T17:31:07.417092+00:00'
+[2026-06-24T17:31:40.189+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-24T17:31:41.082+0000] {logging_mixin.py:190} INFO - 2026-05-01: 2 fixtures
+[2026-06-24T17:31:41.830+0000] {logging_mixin.py:190} INFO - 2026-05-02: 3 fixtures
+[2026-06-24T17:31:42.854+0000] {logging_mixin.py:190} INFO - 2026-05-03: 5 fixtures
+[2026-06-24T17:31:43.582+0000] {logging_mixin.py:190} INFO - 2026-05-04: 2 fixtures
+[2026-06-24T17:31:43.960+0000] {logging_mixin.py:190} INFO - 2026-05-05: 1 fixtures
+[2026-06-24T17:31:44.715+0000] {logging_mixin.py:190} INFO - 2026-05-06: 0 fixtures
+[2026-06-24T17:31:45.441+0000] {logging_mixin.py:190} INFO - 2026-05-07: 0 fixtures
+[2026-06-24T17:31:46.228+0000] {logging_mixin.py:190} INFO - 2026-05-08: 2 fixtures
+[2026-06-24T17:31:46.989+0000] {logging_mixin.py:190} INFO - 2026-05-09: 5 fixtures
+[2026-06-24T17:31:47.759+0000] {logging_mixin.py:190} INFO - 2026-05-10: 5 fixtures
+[2026-06-24T17:31:48.461+0000] {logging_mixin.py:190} INFO - 2026-05-11: 1 fixtures
+[2026-06-24T17:31:49.224+0000] {logging_mixin.py:190} INFO - 2026-05-12: 4 fixtures
+[2026-06-24T17:31:50.092+0000] {logging_mixin.py:190} INFO - 2026-05-13: 3 fixtures
+[2026-06-24T17:31:50.861+0000] {logging_mixin.py:190} INFO - 2026-05-14: 0 fixtures
+[2026-06-24T17:31:51.547+0000] {logging_mixin.py:190} INFO - 2026-05-15: 1 fixtures
+[2026-06-24T17:31:52.253+0000] {logging_mixin.py:190} INFO - 2026-05-16: 3 fixtures
+[2026-06-24T17:31:53.041+0000] {logging_mixin.py:190} INFO - 2026-05-17: 9 fixtures
+[2026-06-24T17:31:53.918+0000] {logging_mixin.py:190} INFO - 2026-05-18: 0 fixtures
+[2026-06-24T17:31:54.598+0000] {logging_mixin.py:190} INFO - 2026-05-19: 0 fixtures
+[2026-06-24T17:31:55.361+0000] {logging_mixin.py:190} INFO - 2026-05-20: 0 fixtures
+[2026-06-24T17:31:56.124+0000] {logging_mixin.py:190} INFO - 2026-05-21: 2 fixtures
+[2026-06-24T17:31:56.904+0000] {logging_mixin.py:190} INFO - 2026-05-22: 0 fixtures
+[2026-06-24T17:31:57.671+0000] {logging_mixin.py:190} INFO - 2026-05-23: 0 fixtures
+[2026-06-24T17:31:58.358+0000] {logging_mixin.py:190} INFO - 2026-05-24: 0 fixtures
+[2026-06-24T17:31:59.056+0000] {logging_mixin.py:190} INFO - 2026-05-25: 1 fixtures
+[2026-06-24T17:31:59.764+0000] {logging_mixin.py:190} INFO - 2026-05-26: 0 fixtures
+[2026-06-24T17:32:00.543+0000] {logging_mixin.py:190} INFO - 2026-05-27: 0 fixtures
+[2026-06-24T17:32:01.246+0000] {logging_mixin.py:190} INFO - 2026-05-28: 0 fixtures
+[2026-06-24T17:32:02.016+0000] {logging_mixin.py:190} INFO - 2026-05-29: 0 fixtures
+[2026-06-24T17:32:02.897+0000] {logging_mixin.py:190} INFO - 2026-05-30: 0 fixtures
+[2026-06-24T17:32:02.911+0000] {logging_mixin.py:190} INFO - {'records': 49, 'object_name': 'fixtures/2026/06/24/fixtures_20260624_173202.json'}
+[2026-06-24T17:32:02.913+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-24T17:32:02.918+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-24T17:32:02.920+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=sportflow_master_pipeline_dag, task_id=fixtures_bronze, run_id=manual__2026-06-24T17:31:07.417092+00:00, execution_date=20260624T173107, start_date=20260624T173139, end_date=20260624T173202
+[2026-06-24T17:32:02.962+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-24T17:32:02.981+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-24T17:32:02.990+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

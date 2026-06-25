@@ -1,0 +1,88 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: sportflow-postgres
+
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infrastructure/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 10s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    container_name: sportflow-minio
+
+    command: server /data --console-address ":9001"
+
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+    volumes:
+      - minio_data:/data
+
+  bucket-bootstrap:
+    build:
+      context: .
+      dockerfile: docker/minio/Dockerfile
+
+    container_name: bucket-bootstrap
+
+    depends_on:
+      - minio
+
+    environment:
+      MINIO_ENDPOINT: sportflow-minio:9000
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+
+    restart: "no"
+
+  airflow:
+    build: 
+      context: .
+      dockerfile: docker/airflow/Dockerfile
+
+    container_name: sportflow-airflow
+
+    ports:
+      - "8080:8080"
+
+    env_file: 
+      - .env
+
+    environment:
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "False"
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      PYTHONPATH: /opt/airflow
+      POSTGRES_HOST: sportflow-postgres
+      MINIO_ENDPOINT: sportflow-minio:9000
+
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./src:/opt/airflow/src
+
+    command: standalone
+
+volumes:
+  postgres_data:
+  minio_data:

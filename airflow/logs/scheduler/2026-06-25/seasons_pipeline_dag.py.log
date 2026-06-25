@@ -1,0 +1,350 @@
+[2026-06-25T03:20:38.584+0000] {processor.py:186} INFO - Started process (PID=19425) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:20:38.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:20:38.590+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:20:38.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:20:39.559+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:20:39.585+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:20:39.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:20:39.605+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:20:39.604+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:20:39.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.057 seconds
+[2026-06-25T03:21:10.453+0000] {processor.py:186} INFO - Started process (PID=19442) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:21:10.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:21:10.458+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:21:10.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:21:11.401+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:21:11.421+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:21:11.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:21:11.440+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:21:11.440+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:21:11.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.020 seconds
+[2026-06-25T03:21:42.769+0000] {processor.py:186} INFO - Started process (PID=19459) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:21:42.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:21:42.775+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:21:42.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:21:43.961+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:21:43.981+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:21:43.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:21:43.997+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:21:43.996+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:21:44.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.258 seconds
+[2026-06-25T03:22:15.115+0000] {processor.py:186} INFO - Started process (PID=19476) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:22:15.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:22:15.126+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:22:15.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:22:16.066+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:22:16.083+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:22:16.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:22:16.099+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:22:16.099+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:22:16.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.029 seconds
+[2026-06-25T03:22:47.334+0000] {processor.py:186} INFO - Started process (PID=19493) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:22:47.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:22:47.339+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:22:47.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:22:48.511+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:22:48.536+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:22:48.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:22:48.558+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:22:48.558+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:22:48.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.257 seconds
+[2026-06-25T03:23:20.276+0000] {processor.py:186} INFO - Started process (PID=19510) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:23:20.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:23:20.282+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:23:20.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:23:21.325+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:23:21.343+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:23:21.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:23:21.360+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:23:21.360+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:23:21.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.115 seconds
+[2026-06-25T03:23:52.799+0000] {processor.py:186} INFO - Started process (PID=19527) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:23:52.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:23:52.806+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:23:52.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:23:54.066+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:23:54.087+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:23:54.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:23:54.108+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:23:54.107+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:23:54.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.353 seconds
+[2026-06-25T03:24:25.602+0000] {processor.py:186} INFO - Started process (PID=19544) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:24:25.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:24:25.608+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:24:25.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:24:26.658+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:24:26.674+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:24:26.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:24:26.691+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:24:26.690+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:24:26.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.121 seconds
+[2026-06-25T03:24:58.154+0000] {processor.py:186} INFO - Started process (PID=19561) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:24:58.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:24:58.159+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:24:58.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:24:59.125+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:24:59.144+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:24:59.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:24:59.160+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:24:59.159+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:24:59.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.033 seconds
+[2026-06-25T03:25:30.948+0000] {processor.py:186} INFO - Started process (PID=19578) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:25:30.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:25:30.952+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:25:30.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:25:32.052+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:25:32.074+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:25:32.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:25:32.093+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:25:32.093+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:25:32.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.180 seconds
+[2026-06-25T03:26:05.290+0000] {processor.py:186} INFO - Started process (PID=19595) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:26:05.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:26:05.297+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:26:05.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:26:06.497+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:26:06.524+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:26:06.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:26:06.546+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:26:06.546+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:26:06.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.294 seconds
+[2026-06-25T03:26:36.930+0000] {processor.py:186} INFO - Started process (PID=19612) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:26:36.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:26:36.934+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:26:36.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:26:37.854+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:26:37.871+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:26:37.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:26:37.887+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:26:37.887+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:26:37.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 0.983 seconds
+[2026-06-25T03:27:08.294+0000] {processor.py:186} INFO - Started process (PID=19629) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:27:08.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:27:08.298+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:27:08.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:27:09.303+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:27:09.319+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:27:09.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:27:09.335+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:27:09.334+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:27:09.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.067 seconds
+[2026-06-25T03:27:40.938+0000] {processor.py:186} INFO - Started process (PID=19646) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:27:40.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:27:40.944+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:27:40.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:27:41.890+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:27:41.907+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:27:41.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:27:41.921+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:27:41.921+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:27:41.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.017 seconds
+[2026-06-25T03:28:12.493+0000] {processor.py:186} INFO - Started process (PID=19663) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:28:12.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:28:12.497+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:28:12.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:28:13.456+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:28:13.470+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:28:13.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:28:13.486+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:28:13.486+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:28:13.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.020 seconds
+[2026-06-25T03:28:44.856+0000] {processor.py:186} INFO - Started process (PID=19680) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:28:44.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:28:44.862+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:28:44.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:28:45.829+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:28:45.845+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:28:45.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:28:45.861+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:28:45.860+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:28:45.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.040 seconds
+[2026-06-25T03:29:17.123+0000] {processor.py:186} INFO - Started process (PID=19697) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:29:17.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:29:17.127+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:29:17.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:29:18.095+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:29:18.110+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:29:18.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:29:18.125+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:29:18.125+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:29:18.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.030 seconds
+[2026-06-25T03:29:49.558+0000] {processor.py:186} INFO - Started process (PID=19714) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:29:49.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:29:49.562+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:29:49.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:29:50.404+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:29:50.422+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:29:50.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:29:50.437+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:29:50.437+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:29:50.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 0.909 seconds
+[2026-06-25T03:30:21.833+0000] {processor.py:186} INFO - Started process (PID=19731) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:30:21.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:30:21.838+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:30:21.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:30:22.770+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:30:22.788+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:30:22.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:30:22.805+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:30:22.805+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:30:22.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 0.999 seconds
+[2026-06-25T03:30:54.745+0000] {processor.py:186} INFO - Started process (PID=19748) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:30:54.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:30:54.750+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:30:54.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:30:55.878+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:30:55.899+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:30:55.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:30:55.918+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:30:55.918+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:30:55.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.206 seconds
+[2026-06-25T03:31:27.525+0000] {processor.py:186} INFO - Started process (PID=19765) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:31:27.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:31:27.529+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:31:27.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:31:28.496+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:31:28.518+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:31:28.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:31:28.541+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:31:28.541+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:31:28.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.045 seconds
+[2026-06-25T03:31:59.943+0000] {processor.py:186} INFO - Started process (PID=19782) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:31:59.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:31:59.948+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:31:59.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:32:01.047+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:32:01.072+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:32:01.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:32:01.095+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:32:01.094+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:32:01.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.203 seconds
+[2026-06-25T03:32:32.373+0000] {processor.py:186} INFO - Started process (PID=19799) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:32:32.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:32:32.378+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:32:32.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:32:33.321+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:32:33.335+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:32:33.334+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:32:33.349+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:32:33.349+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:32:33.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.003 seconds
+[2026-06-25T03:33:04.992+0000] {processor.py:186} INFO - Started process (PID=19816) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:33:04.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:33:04.996+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:33:04.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:33:06.125+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:33:06.151+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:33:06.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:33:06.186+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:33:06.185+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:33:06.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.231 seconds
+[2026-06-25T03:33:37.744+0000] {processor.py:186} INFO - Started process (PID=19833) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:33:37.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:33:37.750+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:33:37.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:33:38.714+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:33:38.729+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:33:38.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:33:38.744+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:33:38.744+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:33:38.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.027 seconds
+[2026-06-25T03:34:10.194+0000] {processor.py:186} INFO - Started process (PID=19850) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:34:10.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:34:10.203+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:34:10.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:34:11.401+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:34:11.427+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:34:11.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:34:11.449+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:34:11.449+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:34:11.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.296 seconds
+[2026-06-25T03:34:43.065+0000] {processor.py:186} INFO - Started process (PID=19867) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:34:43.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:34:43.070+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:34:43.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:34:44.079+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:34:44.100+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:34:44.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:34:44.116+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:34:44.116+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:34:44.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.081 seconds
+[2026-06-25T03:35:15.816+0000] {processor.py:186} INFO - Started process (PID=19884) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:35:15.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:35:15.821+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:35:15.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:35:17.041+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:35:17.057+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:35:17.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:35:17.073+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:35:17.072+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:35:17.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.290 seconds
+[2026-06-25T03:35:48.601+0000] {processor.py:186} INFO - Started process (PID=19901) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:35:48.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:35:48.606+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:35:48.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:35:49.640+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:35:49.657+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:35:49.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:35:49.674+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:35:49.674+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:35:49.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.111 seconds
+[2026-06-25T03:36:20.414+0000] {processor.py:186} INFO - Started process (PID=19918) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:36:20.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:36:20.419+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:36:20.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:36:21.534+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:36:21.550+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:36:21.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:36:21.570+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:36:21.569+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:36:21.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.185 seconds
+[2026-06-25T03:36:56.521+0000] {processor.py:186} INFO - Started process (PID=19935) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:36:56.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:36:56.530+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:36:56.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:36:57.585+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:36:57.602+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:36:57.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:36:57.619+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:36:57.619+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:36:57.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.143 seconds
+[2026-06-25T03:37:28.763+0000] {processor.py:186} INFO - Started process (PID=19952) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:37:28.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:37:28.768+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:37:28.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:37:29.877+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:37:29.898+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:37:29.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:37:29.918+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:37:29.918+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:37:29.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.184 seconds
+[2026-06-25T03:38:00.238+0000] {processor.py:186} INFO - Started process (PID=19969) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:38:00.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:38:00.243+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:38:00.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:38:01.317+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:38:01.343+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:38:01.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:38:01.369+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:38:01.369+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:38:01.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.164 seconds
+[2026-06-25T03:38:32.977+0000] {processor.py:186} INFO - Started process (PID=19986) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:38:32.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:38:32.982+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:38:32.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:38:34.098+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:38:34.122+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:38:34.121+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:38:34.141+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:38:34.141+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:38:34.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.198 seconds
+[2026-06-25T03:39:05.817+0000] {processor.py:186} INFO - Started process (PID=20003) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:39:05.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:39:05.822+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:39:05.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:39:06.761+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:39:06.778+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:39:06.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:39:06.797+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:39:06.796+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:39:06.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.009 seconds
+[2026-06-25T03:39:39.037+0000] {processor.py:186} INFO - Started process (PID=20020) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:39:39.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:39:39.042+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:39:39.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:39:40.017+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:39:40.035+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:39:40.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:39:40.059+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:39:40.058+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:39:40.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.063 seconds
+[2026-06-25T03:40:11.330+0000] {processor.py:186} INFO - Started process (PID=20037) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:40:11.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:40:11.335+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:40:11.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:40:12.493+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:40:12.518+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:40:12.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:40:12.544+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:40:12.544+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:40:12.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.253 seconds
+[2026-06-25T03:40:44.635+0000] {processor.py:186} INFO - Started process (PID=20054) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:40:44.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:40:44.641+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:40:44.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:40:45.683+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:40:45.698+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:40:45.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:40:45.716+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:40:45.716+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:40:45.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.111 seconds
+[2026-06-25T03:41:17.230+0000] {processor.py:186} INFO - Started process (PID=20071) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:41:17.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:41:17.235+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:41:17.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:41:18.288+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:41:18.306+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:41:18.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:41:18.329+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:41:18.329+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:41:18.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.135 seconds
+[2026-06-25T03:41:50.693+0000] {processor.py:186} INFO - Started process (PID=20088) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:41:50.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:41:50.699+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:41:50.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:41:51.849+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:41:51.868+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:41:51.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:41:51.887+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:41:51.887+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:41:51.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.223 seconds
+[2026-06-25T03:42:23.028+0000] {processor.py:186} INFO - Started process (PID=20105) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:42:23.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:42:23.034+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:42:23.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:42:24.278+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:42:24.294+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:42:24.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:42:24.311+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:42:24.311+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:42:24.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.315 seconds
+[2026-06-25T03:42:55.640+0000] {processor.py:186} INFO - Started process (PID=20122) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:42:55.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:42:55.646+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:42:55.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:42:56.778+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:42:56.798+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:42:56.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:42:56.820+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:42:56.820+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:42:56.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.211 seconds
+[2026-06-25T03:43:28.049+0000] {processor.py:186} INFO - Started process (PID=20139) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:43:28.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:43:28.054+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:43:28.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:43:29.090+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:43:29.107+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:43:29.107+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:43:29.125+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:43:29.125+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:43:29.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.104 seconds
+[2026-06-25T03:43:59.655+0000] {processor.py:186} INFO - Started process (PID=20156) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:43:59.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:43:59.661+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:43:59.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:44:00.682+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:44:00.699+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:44:00.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:44:00.715+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:44:00.715+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:44:00.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.087 seconds
+[2026-06-25T03:44:32.353+0000] {processor.py:186} INFO - Started process (PID=20173) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:44:32.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:44:32.357+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:44:32.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:44:33.433+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:44:33.449+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:44:33.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:44:33.471+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:44:33.471+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:44:33.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.209 seconds
+[2026-06-25T03:45:04.966+0000] {processor.py:186} INFO - Started process (PID=20190) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:45:04.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:45:04.972+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:45:04.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:45:05.847+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:45:05.863+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:45:05.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:45:05.880+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:45:05.880+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:45:05.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 0.941 seconds
+[2026-06-25T03:45:36.670+0000] {processor.py:186} INFO - Started process (PID=20207) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:45:36.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:45:36.678+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:45:36.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:45:37.924+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:45:37.942+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:45:37.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:45:37.960+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:45:37.960+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:45:37.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.324 seconds
+[2026-06-25T03:46:08.973+0000] {processor.py:186} INFO - Started process (PID=20224) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:46:08.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:46:08.977+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:46:08.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:46:09.827+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:46:09.846+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:46:09.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:46:09.866+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:46:09.866+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:46:09.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 0.921 seconds
+[2026-06-25T03:46:41.265+0000] {processor.py:186} INFO - Started process (PID=20241) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:46:41.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:46:41.269+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:46:41.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:46:42.195+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:46:42.212+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:46:42.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:46:42.227+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:46:42.227+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:46:42.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 0.991 seconds
+[2026-06-25T03:47:13.001+0000] {processor.py:186} INFO - Started process (PID=20258) to work on /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:47:13.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/seasons_pipeline_dag.py for tasks to queue
+[2026-06-25T03:47:13.006+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:13.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:47:13.965+0000] {processor.py:925} INFO - DAG(s) 'season_pipeline_dag' retrieved from /opt/airflow/dags/seasons_pipeline_dag.py
+[2026-06-25T03:47:13.984+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:13.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:47:14.002+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:14.002+0000] {dag.py:4180} INFO - Setting next_dagrun for season_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:47:14.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/seasons_pipeline_dag.py took 1.028 seconds

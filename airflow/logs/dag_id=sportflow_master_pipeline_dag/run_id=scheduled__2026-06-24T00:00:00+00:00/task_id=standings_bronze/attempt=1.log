@@ -1,0 +1,44 @@
+[2026-06-25T03:15:41.107+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-25T03:15:41.119+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.standings_bronze scheduled__2026-06-24T00:00:00+00:00 [queued]>
+[2026-06-25T03:15:41.129+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.standings_bronze scheduled__2026-06-24T00:00:00+00:00 [queued]>
+[2026-06-25T03:15:41.131+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-25T03:15:41.150+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): standings_bronze> on 2026-06-24 00:00:00+00:00
+[2026-06-25T03:15:41.167+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sportflow_master_pipeline_dag', 'standings_bronze', 'scheduled__2026-06-24T00:00:00+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/sportflow_master_pipeline_dag.py', '--cfg-path', '/tmp/tmp_asusfg8']
+[2026-06-25T03:15:41.170+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=18949) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-25T03:15:41.171+0000] {standard_task_runner.py:105} INFO - Job 127: Subtask standings_bronze
+[2026-06-25T03:15:41.172+0000] {standard_task_runner.py:72} INFO - Started process 18963 to run task
+[2026-06-25T03:15:41.235+0000] {task_command.py:467} INFO - Running <TaskInstance: sportflow_master_pipeline_dag.standings_bronze scheduled__2026-06-24T00:00:00+00:00 [running]> on host 63be96c18349
+[2026-06-25T03:15:41.350+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sportflow_master_pipeline_dag' AIRFLOW_CTX_TASK_ID='standings_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-06-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-24T00:00:00+00:00'
+[2026-06-25T03:15:41.353+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-25T03:15:42.256+0000] {logging_mixin.py:190} INFO - Season 759: 14 standings
+[2026-06-25T03:15:43.061+0000] {logging_mixin.py:190} INFO - Season 819: 0 standings
+[2026-06-25T03:15:43.884+0000] {logging_mixin.py:190} INFO - Season 825: 24 standings
+[2026-06-25T03:15:44.745+0000] {logging_mixin.py:190} INFO - Season 1273: 12 standings
+[2026-06-25T03:15:45.966+0000] {logging_mixin.py:190} INFO - Season 1274: 12 standings
+[2026-06-25T03:15:47.564+0000] {logging_mixin.py:190} INFO - Season 1275: 12 standings
+[2026-06-25T03:15:49.310+0000] {logging_mixin.py:190} INFO - Season 1276: 12 standings
+[2026-06-25T03:15:50.437+0000] {logging_mixin.py:190} INFO - Season 1277: 12 standings
+[2026-06-25T03:15:51.687+0000] {logging_mixin.py:190} INFO - Season 1278: 12 standings
+[2026-06-25T03:15:52.385+0000] {logging_mixin.py:190} INFO - Season 1279: 12 standings
+[2026-06-25T03:15:53.445+0000] {logging_mixin.py:190} INFO - Season 1280: 12 standings
+[2026-06-25T03:15:54.679+0000] {logging_mixin.py:190} INFO - Season 1281: 12 standings
+[2026-06-25T03:15:55.545+0000] {logging_mixin.py:190} INFO - Season 1282: 12 standings
+[2026-06-25T03:15:56.332+0000] {logging_mixin.py:190} INFO - Season 1286: 12 standings
+[2026-06-25T03:15:57.222+0000] {logging_mixin.py:190} INFO - Season 1927: 24 standings
+[2026-06-25T03:15:58.414+0000] {logging_mixin.py:190} INFO - Season 1928: 24 standings
+[2026-06-25T03:15:59.285+0000] {logging_mixin.py:190} INFO - Season 1929: 24 standings
+[2026-06-25T03:15:59.976+0000] {logging_mixin.py:190} INFO - Season 1930: 18 standings
+[2026-06-25T03:16:00.713+0000] {logging_mixin.py:190} INFO - Season 1931: 24 standings
+[2026-06-25T03:16:01.697+0000] {logging_mixin.py:190} INFO - Season 1932: 24 standings
+[2026-06-25T03:16:02.997+0000] {logging_mixin.py:190} INFO - Season 1933: 24 standings
+[2026-06-25T03:16:03.800+0000] {logging_mixin.py:190} INFO - Season 1934: 24 standings
+[2026-06-25T03:16:04.601+0000] {logging_mixin.py:190} INFO - Season 1935: 24 standings
+[2026-06-25T03:16:05.791+0000] {logging_mixin.py:190} INFO - Season 1936: 24 standings
+[2026-06-25T03:16:06.994+0000] {logging_mixin.py:190} INFO - Season 1937: 24 standings
+[2026-06-25T03:16:07.041+0000] {logging_mixin.py:190} INFO - {'records': 428, 'object_name': 'standings/2026/06/25/standings_20260625_031606.json'}
+[2026-06-25T03:16:07.044+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-25T03:16:07.055+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-25T03:16:07.058+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=sportflow_master_pipeline_dag, task_id=standings_bronze, run_id=scheduled__2026-06-24T00:00:00+00:00, execution_date=20260624T000000, start_date=20260625T031541, end_date=20260625T031607
+[2026-06-25T03:16:07.111+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-25T03:16:07.141+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-25T03:16:07.151+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,19 @@
+[2026-06-24T03:23:17.023+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-24T03:23:17.040+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.teams_gold manual__2026-06-24T03:20:40.529804+00:00 [queued]>
+[2026-06-24T03:23:17.051+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.teams_gold manual__2026-06-24T03:20:40.529804+00:00 [queued]>
+[2026-06-24T03:23:17.054+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-24T03:23:17.074+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): teams_gold> on 2026-06-24 03:20:40.529804+00:00
+[2026-06-24T03:23:17.087+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sportflow_master_pipeline_dag', 'teams_gold', 'manual__2026-06-24T03:20:40.529804+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/sportflow_master_pipeline_dag.py', '--cfg-path', '/tmp/tmphw4pd1my']
+[2026-06-24T03:23:17.092+0000] {standard_task_runner.py:105} INFO - Job 89: Subtask teams_gold
+[2026-06-24T03:23:17.092+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3504) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-24T03:23:17.095+0000] {standard_task_runner.py:72} INFO - Started process 3518 to run task
+[2026-06-24T03:23:17.154+0000] {task_command.py:467} INFO - Running <TaskInstance: sportflow_master_pipeline_dag.teams_gold manual__2026-06-24T03:20:40.529804+00:00 [running]> on host 63be96c18349
+[2026-06-24T03:23:17.224+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sportflow_master_pipeline_dag' AIRFLOW_CTX_TASK_ID='teams_gold' AIRFLOW_CTX_EXECUTION_DATE='2026-06-24T03:20:40.529804+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-24T03:20:40.529804+00:00'
+[2026-06-24T03:23:17.226+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-24T03:23:17.326+0000] {logging_mixin.py:190} INFO - {'records': 49, 'table': 'gold.dim_teams'}
+[2026-06-24T03:23:17.328+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-24T03:23:17.334+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-24T03:23:17.336+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=sportflow_master_pipeline_dag, task_id=teams_gold, run_id=manual__2026-06-24T03:20:40.529804+00:00, execution_date=20260624T032040, start_date=20260624T032317, end_date=20260624T032317
+[2026-06-24T03:23:17.393+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-24T03:23:17.406+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-24T03:23:17.408+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,18 @@
+[2026-06-22T16:34:15.571+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-22T16:34:15.586+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: competition_ingestion_dag.ingest_competitions manual__2026-06-22T16:34:07.881183+00:00 [queued]>
+[2026-06-22T16:34:15.596+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: competition_ingestion_dag.ingest_competitions manual__2026-06-22T16:34:07.881183+00:00 [queued]>
+[2026-06-22T16:34:15.603+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-22T16:34:15.625+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): ingest_competitions> on 2026-06-22 16:34:07.881183+00:00
+[2026-06-22T16:34:15.632+0000] {standard_task_runner.py:72} INFO - Started process 129 to run task
+[2026-06-22T16:34:15.639+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'competition_ingestion_dag', 'ingest_competitions', 'manual__2026-06-22T16:34:07.881183+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/competition_ingestion_dag.py', '--cfg-path', '/tmp/tmpx748rg99']
+[2026-06-22T16:34:15.643+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask ingest_competitions
+[2026-06-22T16:34:15.719+0000] {task_command.py:467} INFO - Running <TaskInstance: competition_ingestion_dag.ingest_competitions manual__2026-06-22T16:34:07.881183+00:00 [running]> on host 38c04196fefb
+[2026-06-22T16:34:15.797+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='competition_ingestion_dag' AIRFLOW_CTX_TASK_ID='ingest_competitions' AIRFLOW_CTX_EXECUTION_DATE='2026-06-22T16:34:07.881183+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-22T16:34:07.881183+00:00'
+[2026-06-22T16:34:15.800+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-22T16:34:16.315+0000] {logging_mixin.py:190} INFO - {'records': 4, 'object_name': 'competitions/2026/06/22/competitions_20260622_163416.json'}
+[2026-06-22T16:34:16.316+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-22T16:34:16.323+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-22T16:34:16.325+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=competition_ingestion_dag, task_id=ingest_competitions, run_id=manual__2026-06-22T16:34:07.881183+00:00, execution_date=20260622T163407, start_date=20260622T163415, end_date=20260622T163416
+[2026-06-22T16:34:16.382+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-22T16:34:16.393+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-22T16:34:16.395+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,27 @@
+[2026-06-24T03:20:54.540+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-24T03:20:54.550+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.teams_bronze manual__2026-06-24T03:20:40.529804+00:00 [queued]>
+[2026-06-24T03:20:54.557+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sportflow_master_pipeline_dag.teams_bronze manual__2026-06-24T03:20:40.529804+00:00 [queued]>
+[2026-06-24T03:20:54.559+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-24T03:20:54.573+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): teams_bronze> on 2026-06-24 03:20:40.529804+00:00
+[2026-06-24T03:20:54.590+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'sportflow_master_pipeline_dag', 'teams_bronze', 'manual__2026-06-24T03:20:40.529804+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/sportflow_master_pipeline_dag.py', '--cfg-path', '/tmp/tmpbzgyreqg']
+[2026-06-24T03:20:54.593+0000] {standard_task_runner.py:105} INFO - Job 79: Subtask teams_bronze
+[2026-06-24T03:20:54.598+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3339) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-24T03:20:54.600+0000] {standard_task_runner.py:72} INFO - Started process 3353 to run task
+[2026-06-24T03:20:54.670+0000] {task_command.py:467} INFO - Running <TaskInstance: sportflow_master_pipeline_dag.teams_bronze manual__2026-06-24T03:20:40.529804+00:00 [running]> on host 63be96c18349
+[2026-06-24T03:20:54.750+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sportflow_master_pipeline_dag' AIRFLOW_CTX_TASK_ID='teams_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-06-24T03:20:40.529804+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-24T03:20:40.529804+00:00'
+[2026-06-24T03:20:54.753+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-24T03:20:55.554+0000] {logging_mixin.py:190} INFO - Country 320: 22 teams
+[2026-06-24T03:20:56.554+0000] {logging_mixin.py:190} INFO - Country 1161: 25 teams
+[2026-06-24T03:20:57.309+0000] {logging_mixin.py:190} INFO - Country 462: 0 teams
+[2026-06-24T03:20:58.698+0000] {logging_mixin.py:190} INFO - Country 5: 2 teams
+[2026-06-24T03:20:59.398+0000] {logging_mixin.py:190} INFO - Country 38: 0 teams
+[2026-06-24T03:21:00.131+0000] {logging_mixin.py:190} INFO - Country 32: 0 teams
+[2026-06-24T03:21:00.992+0000] {logging_mixin.py:190} INFO - Country 251: 0 teams
+[2026-06-24T03:21:02.277+0000] {logging_mixin.py:190} INFO - Country 404: 0 teams
+[2026-06-24T03:21:02.298+0000] {logging_mixin.py:190} INFO - {'records': 49, 'object_name': 'teams/2026/06/24/teams_20260624_032102.json'}
+[2026-06-24T03:21:02.301+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-24T03:21:02.310+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-24T03:21:02.312+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=sportflow_master_pipeline_dag, task_id=teams_bronze, run_id=manual__2026-06-24T03:20:40.529804+00:00, execution_date=20260624T032040, start_date=20260624T032054, end_date=20260624T032102
+[2026-06-24T03:21:02.381+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-24T03:21:02.415+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-06-24T03:21:02.423+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
