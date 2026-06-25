@@ -348,3 +348,122 @@
 [2026-06-25T03:47:15.838+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:15.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:47:15.855+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:15.855+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:47:15.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.139 seconds
+[2026-06-25T03:47:47.685+0000] {processor.py:186} INFO - Started process (PID=20277) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:47:47.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:47:47.689+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:47.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:47:48.699+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:47:48.726+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:48.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:47:48.744+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:48.744+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:47:48.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.088 seconds
+[2026-06-25T03:48:21.258+0000] {processor.py:186} INFO - Started process (PID=20294) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:48:21.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:48:21.263+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:21.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:48:22.347+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:48:22.366+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:22.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:48:22.383+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:22.382+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:48:22.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.155 seconds
+[2026-06-25T03:48:53.786+0000] {processor.py:186} INFO - Started process (PID=20311) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:48:53.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:48:53.791+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:53.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:48:54.704+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:48:54.725+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:54.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:48:54.740+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:54.740+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:48:54.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 0.984 seconds
+[2026-06-25T03:49:25.773+0000] {processor.py:186} INFO - Started process (PID=20328) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:49:25.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:49:25.780+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:25.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:49:26.706+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:49:26.729+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:26.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:26.745+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:26.745+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:26.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.002 seconds
+[2026-06-25T03:49:57.663+0000] {processor.py:186} INFO - Started process (PID=20345) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:49:57.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:49:57.668+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:57.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:49:58.781+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:49:58.805+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:58.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:58.826+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:58.825+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:58.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.192 seconds
+[2026-06-25T03:50:29.859+0000] {processor.py:186} INFO - Started process (PID=20362) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:50:29.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:50:29.864+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:29.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:50:30.953+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:50:30.966+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:30.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:30.982+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:30.982+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:31.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.153 seconds
+[2026-06-25T03:51:01.195+0000] {processor.py:186} INFO - Started process (PID=20379) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:51:01.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:51:01.201+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:01.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:51:02.208+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:51:02.225+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:02.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:02.241+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:02.241+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:02.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.079 seconds
+[2026-06-25T03:51:32.484+0000] {processor.py:186} INFO - Started process (PID=20396) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:51:32.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:51:32.489+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:32.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:51:33.521+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:51:33.538+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:33.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:33.556+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:33.556+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:33.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.101 seconds
+[2026-06-25T03:52:05.240+0000] {processor.py:186} INFO - Started process (PID=20413) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:52:05.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:52:05.244+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:05.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:52:06.251+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:52:06.268+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:06.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:06.287+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:06.287+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:06.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.079 seconds
+[2026-06-25T03:52:37.991+0000] {processor.py:186} INFO - Started process (PID=20430) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:52:37.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:52:37.995+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:37.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:52:39.002+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:52:39.020+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:39.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:39.037+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:39.037+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:39.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.073 seconds
+[2026-06-25T03:53:09.730+0000] {processor.py:186} INFO - Started process (PID=20447) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:53:09.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:53:09.734+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:09.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:53:10.785+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:53:10.807+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:10.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:10.824+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:10.823+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:10.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.122 seconds
+[2026-06-25T03:53:42.938+0000] {processor.py:186} INFO - Started process (PID=20464) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:53:42.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:53:42.945+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:42.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:53:44.047+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:53:44.066+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:44.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:44.084+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:44.084+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:44.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.185 seconds
+[2026-06-25T03:54:14.415+0000] {processor.py:186} INFO - Started process (PID=20481) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:54:14.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:54:14.421+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:14.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:54:15.447+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:54:15.466+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:15.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:15.485+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:15.484+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:15.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.102 seconds
+[2026-06-25T03:54:47.684+0000] {processor.py:186} INFO - Started process (PID=20498) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:54:47.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:54:47.690+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:47.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:54:48.668+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:54:48.684+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:48.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:48.698+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:48.698+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:48.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.044 seconds
+[2026-06-25T03:55:20.282+0000] {processor.py:186} INFO - Started process (PID=20515) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:55:20.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:55:20.287+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:20.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:55:21.347+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:55:21.364+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:21.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:55:21.380+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:21.379+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:55:21.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.133 seconds
+[2026-06-25T03:55:53.232+0000] {processor.py:186} INFO - Started process (PID=20532) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:55:53.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:55:53.242+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:53.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:55:55.149+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:55:55.174+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:55.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:55:55.197+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:55.197+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:55:55.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 2.023 seconds
+[2026-06-25T03:56:25.501+0000] {processor.py:186} INFO - Started process (PID=20549) to work on /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:56:25.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/team_pipeline_dag.py for tasks to queue
+[2026-06-25T03:56:25.512+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:25.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:56:26.529+0000] {processor.py:925} INFO - DAG(s) 'team_pipeline_dag' retrieved from /opt/airflow/dags/team_pipeline_dag.py
+[2026-06-25T03:56:26.543+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:26.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:26.558+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:26.558+0000] {dag.py:4180} INFO - Setting next_dagrun for team_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:26.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/team_pipeline_dag.py took 1.094 seconds

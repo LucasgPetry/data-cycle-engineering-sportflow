@@ -1,10 +1,157 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# =========================
 
-# Virtual environments
-.venv
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+
+# =========================
+
+# UV
+
+# =========================
+
+.python-version
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# Jupyter
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Pytest
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+
+# Mypy
+
+# =========================
+
+.mypy_cache/
+
+# =========================
+
+# Ruff
+
+# =========================
+
+.ruff_cache/
+
+# =========================
+
+# VS Code
+
+# =========================
+
+.vscode/
+
+# =========================
+
+# JetBrains
+
+# =========================
+
+.idea/
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Airflow
+
+# =========================
+
+airflow/logs/
+airflow/airflow.db
+
+# =========================
+
+# Local Data
+
+# =========================
+
+data/
+
+# Caso queira manter a estrutura:
+
+# !data/.gitkeep
+
+# =========================
+
+# MinIO Downloads
+
+# =========================
+
+*.parquet
+*.csv
+*.json
+
+# =========================
+
+# Build
+
+# =========================
+
+dist/
+build/
+*.egg-info/
+
+# =========================
+
+# Streamlit Cache
+
+# =========================
+
+.streamlit/cache/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# Docker
+
+# =========================
+
+docker-compose.override.yml

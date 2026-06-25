@@ -348,3 +348,122 @@
 [2026-06-25T03:47:21.132+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:21.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:47:21.148+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:21.148+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:47:21.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.875 seconds
+[2026-06-25T03:47:53.990+0000] {processor.py:186} INFO - Started process (PID=20283) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:47:53.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:47:53.995+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:53.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:47:54.866+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:47:54.885+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:54.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:47:54.905+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:54.904+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:47:54.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.944 seconds
+[2026-06-25T03:48:27.532+0000] {processor.py:186} INFO - Started process (PID=20300) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:48:27.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:48:27.537+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:27.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:48:28.450+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:48:28.466+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:28.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:48:28.486+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:28.485+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:48:28.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.987 seconds
+[2026-06-25T03:48:59.601+0000] {processor.py:186} INFO - Started process (PID=20317) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:48:59.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:48:59.606+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:59.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:49:00.510+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:49:00.527+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:00.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:00.545+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:00.544+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:00.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.973 seconds
+[2026-06-25T03:49:31.471+0000] {processor.py:186} INFO - Started process (PID=20334) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:49:31.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:49:31.475+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:31.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:49:32.410+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:49:32.430+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:32.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:32.446+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:32.446+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:32.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 1.003 seconds
+[2026-06-25T03:50:03.404+0000] {processor.py:186} INFO - Started process (PID=20351) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:50:03.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:50:03.409+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:03.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:50:04.303+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:50:04.321+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:04.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:04.338+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:04.338+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:04.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.971 seconds
+[2026-06-25T03:50:35.721+0000] {processor.py:186} INFO - Started process (PID=20368) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:50:35.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:50:35.728+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:35.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:50:36.620+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:50:36.651+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:36.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:36.677+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:36.677+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:36.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.997 seconds
+[2026-06-25T03:51:07.071+0000] {processor.py:186} INFO - Started process (PID=20385) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:51:07.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:51:07.076+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:07.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:51:07.964+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:51:07.979+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:07.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:07.995+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:07.995+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:08.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.962 seconds
+[2026-06-25T03:51:38.184+0000] {processor.py:186} INFO - Started process (PID=20402) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:51:38.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:51:38.188+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:38.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:51:39.081+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:51:39.101+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:39.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:39.126+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:39.125+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:39.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.973 seconds
+[2026-06-25T03:52:11.429+0000] {processor.py:186} INFO - Started process (PID=20419) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:52:11.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:52:11.435+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:11.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:52:12.391+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:52:12.413+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:12.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:12.431+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:12.431+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:12.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 1.032 seconds
+[2026-06-25T03:52:44.179+0000] {processor.py:186} INFO - Started process (PID=20436) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:52:44.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:52:44.183+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:44.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:52:45.011+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:52:45.031+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:45.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:45.047+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:45.047+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:45.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.903 seconds
+[2026-06-25T03:53:16.162+0000] {processor.py:186} INFO - Started process (PID=20453) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:53:16.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:53:16.167+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:16.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:53:17.051+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:53:17.069+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:17.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:17.089+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:17.088+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:17.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.960 seconds
+[2026-06-25T03:53:48.921+0000] {processor.py:186} INFO - Started process (PID=20470) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:53:48.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:53:48.928+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:48.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:53:49.755+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:53:49.772+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:49.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:49.787+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:49.786+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:49.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.901 seconds
+[2026-06-25T03:54:20.732+0000] {processor.py:186} INFO - Started process (PID=20487) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:54:20.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:54:20.736+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:20.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:54:21.726+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:54:21.741+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:21.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:21.757+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:21.757+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:21.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 1.057 seconds
+[2026-06-25T03:54:53.852+0000] {processor.py:186} INFO - Started process (PID=20504) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:54:53.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:54:53.857+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:53.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:54:54.744+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:54:54.761+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:54.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:54.777+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:54.777+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:54.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.955 seconds
+[2026-06-25T03:55:26.598+0000] {processor.py:186} INFO - Started process (PID=20521) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:55:26.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:55:26.603+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:26.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:55:27.544+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:55:27.563+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:27.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:55:27.583+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:27.582+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:55:27.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 1.019 seconds
+[2026-06-25T03:56:00.398+0000] {processor.py:186} INFO - Started process (PID=20538) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:56:00.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:56:00.402+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:00.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:56:01.312+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:56:01.331+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:01.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:01.350+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:01.350+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:01.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 0.982 seconds
+[2026-06-25T03:56:31.920+0000] {processor.py:186} INFO - Started process (PID=20555) to work on /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:56:31.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_silver_dag.py for tasks to queue
+[2026-06-25T03:56:31.924+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:31.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:56:32.919+0000] {processor.py:925} INFO - DAG(s) 'competition_silver_dag' retrieved from /opt/airflow/dags/competition_silver_dag.py
+[2026-06-25T03:56:32.936+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:32.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:32.956+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:32.956+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_silver_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:32.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_silver_dag.py took 1.071 seconds

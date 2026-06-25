@@ -362,3 +362,129 @@
 [2026-06-25T03:47:08.175+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:08.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:47:08.191+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:08.191+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:47:08.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.577 seconds
+[2026-06-25T03:47:38.393+0000] {processor.py:186} INFO - Started process (PID=20269) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:47:38.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:47:38.400+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:38.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:47:40.446+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:47:40.467+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:40.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:47:40.488+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:40.488+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:47:40.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.128 seconds
+[2026-06-25T03:48:11.180+0000] {processor.py:186} INFO - Started process (PID=20286) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:48:11.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:48:11.187+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:11.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:48:13.543+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:48:13.570+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:13.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:48:13.590+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:13.589+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:48:13.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.444 seconds
+[2026-06-25T03:48:43.749+0000] {processor.py:186} INFO - Started process (PID=20303) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:48:43.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:48:43.754+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:43.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:48:45.326+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:48:45.347+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:45.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:48:45.364+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:45.364+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:48:45.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.646 seconds
+[2026-06-25T03:49:15.513+0000] {processor.py:186} INFO - Started process (PID=20320) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:49:15.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:49:15.519+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:15.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:49:17.080+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:49:17.101+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:17.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:17.119+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:17.119+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:17.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.639 seconds
+[2026-06-25T03:49:47.651+0000] {processor.py:186} INFO - Started process (PID=20337) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:49:47.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:49:47.656+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:47.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:49:49.060+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:49:49.080+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:49.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:49.098+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:49.098+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:49.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.477 seconds
+[2026-06-25T03:50:19.469+0000] {processor.py:186} INFO - Started process (PID=20354) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:50:19.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:50:19.475+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:19.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:50:21.099+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:50:21.123+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:21.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:21.143+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:21.142+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:21.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.707 seconds
+[2026-06-25T03:50:51.812+0000] {processor.py:186} INFO - Started process (PID=20371) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:50:51.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:50:51.819+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:51.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:50:53.776+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:50:53.797+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:53.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:53.815+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:53.814+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:53.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.037 seconds
+[2026-06-25T03:51:24.398+0000] {processor.py:186} INFO - Started process (PID=20388) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:51:24.401+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:51:24.403+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:24.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:51:25.929+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:51:25.948+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:25.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:25.966+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:25.966+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:25.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.598 seconds
+[2026-06-25T03:51:56.246+0000] {processor.py:186} INFO - Started process (PID=20405) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:51:56.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:51:56.251+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:56.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:51:57.814+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:51:57.836+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:57.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:57.852+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:57.852+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:57.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.634 seconds
+[2026-06-25T03:52:28.610+0000] {processor.py:186} INFO - Started process (PID=20422) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:52:28.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:52:28.619+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:28.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:52:30.593+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:52:30.618+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:30.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:30.634+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:30.633+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:30.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.059 seconds
+[2026-06-25T03:53:01.153+0000] {processor.py:186} INFO - Started process (PID=20439) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:53:01.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:53:01.160+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:01.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:53:03.059+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:53:03.079+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:03.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:03.097+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:03.097+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:03.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.980 seconds
+[2026-06-25T03:53:33.644+0000] {processor.py:186} INFO - Started process (PID=20456) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:53:33.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:53:33.649+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:33.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:53:35.358+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:53:35.378+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:35.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:35.394+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:35.393+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:35.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.785 seconds
+[2026-06-25T03:54:06.011+0000] {processor.py:186} INFO - Started process (PID=20473) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:54:06.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:54:06.015+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:06.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:54:07.541+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:54:07.560+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:07.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:07.576+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:07.576+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:07.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.593 seconds
+[2026-06-25T03:54:38.114+0000] {processor.py:186} INFO - Started process (PID=20490) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:54:38.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:54:38.129+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:38.128+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:54:40.090+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:54:40.111+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:40.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:40.126+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:40.126+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:40.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.060 seconds
+[2026-06-25T03:55:10.869+0000] {processor.py:186} INFO - Started process (PID=20507) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:55:10.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:55:10.874+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:10.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:55:12.480+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:55:12.511+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:12.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:55:12.533+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:12.532+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:55:12.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.703 seconds
+[2026-06-25T03:55:42.784+0000] {processor.py:186} INFO - Started process (PID=20524) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:55:42.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:55:42.791+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:42.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:55:44.422+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:55:44.443+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:44.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:55:44.462+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:44.462+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:55:44.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 1.712 seconds
+[2026-06-25T03:56:14.702+0000] {processor.py:186} INFO - Started process (PID=20541) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:56:14.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:56:14.709+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:14.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:56:16.602+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:56:16.647+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:16.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:16.675+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:16.674+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:16.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.021 seconds
+[2026-06-25T03:56:46.978+0000] {processor.py:186} INFO - Started process (PID=20558) to work on /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:56:46.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sportflow_master_pipeline_dag.py for tasks to queue
+[2026-06-25T03:56:46.986+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:46.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:56:48.944+0000] {processor.py:925} INFO - DAG(s) 'sportflow_master_pipeline_dag' retrieved from /opt/airflow/dags/sportflow_master_pipeline_dag.py
+[2026-06-25T03:56:48.991+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:48.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:49.019+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:49.019+0000] {dag.py:4180} INFO - Setting next_dagrun for sportflow_master_pipeline_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:49.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sportflow_master_pipeline_dag.py took 2.077 seconds

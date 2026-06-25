@@ -348,3 +348,122 @@
 [2026-06-25T03:47:22.677+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:22.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-06-25T03:47:22.710+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:22.710+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
 [2026-06-25T03:47:22.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.465 seconds
+[2026-06-25T03:47:55.661+0000] {processor.py:186} INFO - Started process (PID=20285) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:47:55.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:47:55.665+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:55.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:47:56.029+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:47:56.070+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:56.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:47:56.101+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:47:56.100+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:47:56.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.668 seconds
+[2026-06-25T03:48:28.766+0000] {processor.py:186} INFO - Started process (PID=20302) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:48:28.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:48:28.772+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:28.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:48:29.116+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:48:29.144+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:29.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:48:29.173+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:48:29.173+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:48:29.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.443 seconds
+[2026-06-25T03:49:01.670+0000] {processor.py:186} INFO - Started process (PID=20319) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:49:01.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:49:01.674+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:01.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:49:01.995+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:49:02.021+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:02.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:02.040+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:02.040+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:02.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.398 seconds
+[2026-06-25T03:49:33.482+0000] {processor.py:186} INFO - Started process (PID=20336) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:49:33.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:49:33.487+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:33.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:49:33.767+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:49:33.792+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:33.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:49:33.812+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:49:33.812+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:49:33.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.365 seconds
+[2026-06-25T03:50:05.438+0000] {processor.py:186} INFO - Started process (PID=20353) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:50:05.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:50:05.443+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:05.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:50:05.708+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:50:05.732+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:05.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:05.752+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:05.752+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:05.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.347 seconds
+[2026-06-25T03:50:37.920+0000] {processor.py:186} INFO - Started process (PID=20370) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:50:37.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:50:37.929+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:37.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:50:38.301+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:50:38.332+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:38.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:50:38.359+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:50:38.358+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:50:38.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.482 seconds
+[2026-06-25T03:51:09.004+0000] {processor.py:186} INFO - Started process (PID=20387) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:51:09.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:51:09.010+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:09.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:51:09.317+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:51:09.343+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:09.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:09.367+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:09.366+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:09.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.401 seconds
+[2026-06-25T03:51:40.280+0000] {processor.py:186} INFO - Started process (PID=20404) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:51:40.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:51:40.285+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:40.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:51:40.598+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:51:40.624+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:40.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:51:40.647+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:51:40.646+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:51:40.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.561 seconds
+[2026-06-25T03:52:13.017+0000] {processor.py:186} INFO - Started process (PID=20421) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:52:13.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:52:13.022+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:13.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:52:13.376+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:52:13.405+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:13.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:13.429+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:13.428+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:13.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.453 seconds
+[2026-06-25T03:52:45.661+0000] {processor.py:186} INFO - Started process (PID=20438) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:52:45.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:52:45.666+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:45.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:52:45.955+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:52:45.982+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:45.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:52:46.003+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:52:46.002+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:52:46.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.379 seconds
+[2026-06-25T03:53:18.070+0000] {processor.py:186} INFO - Started process (PID=20455) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:53:18.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:53:18.077+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:18.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:53:18.447+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:53:18.481+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:18.480+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:18.508+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:18.508+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:18.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.475 seconds
+[2026-06-25T03:53:50.530+0000] {processor.py:186} INFO - Started process (PID=20472) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:53:50.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:53:50.534+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:50.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:53:50.797+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:53:50.821+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:50.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:53:50.843+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:53:50.843+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:53:50.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.348 seconds
+[2026-06-25T03:54:22.816+0000] {processor.py:186} INFO - Started process (PID=20489) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:54:22.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:54:22.821+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:22.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:54:23.134+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:54:23.162+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:23.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:23.184+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:23.184+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:23.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.407 seconds
+[2026-06-25T03:54:55.294+0000] {processor.py:186} INFO - Started process (PID=20506) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:54:55.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:54:55.298+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:55.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:54:55.688+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:54:55.717+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:55.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:54:55.737+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:54:55.737+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:54:55.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.474 seconds
+[2026-06-25T03:55:28.771+0000] {processor.py:186} INFO - Started process (PID=20523) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:55:28.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:55:28.776+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:28.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:55:29.113+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:55:29.139+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:29.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:55:29.161+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:55:29.160+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:55:29.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.425 seconds
+[2026-06-25T03:56:02.473+0000] {processor.py:186} INFO - Started process (PID=20540) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:56:02.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:56:02.480+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:02.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:56:02.833+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:56:02.861+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:02.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:02.882+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:02.882+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:03.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.608 seconds
+[2026-06-25T03:56:34.111+0000] {processor.py:186} INFO - Started process (PID=20557) to work on /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:56:34.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/competition_ingestion_dag.py for tasks to queue
+[2026-06-25T03:56:34.118+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:34.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:56:34.446+0000] {processor.py:925} INFO - DAG(s) 'competition_ingestion_dag' retrieved from /opt/airflow/dags/competition_ingestion_dag.py
+[2026-06-25T03:56:34.482+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:34.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-25T03:56:34.707+0000] {logging_mixin.py:190} INFO - [2026-06-25T03:56:34.706+0000] {dag.py:4180} INFO - Setting next_dagrun for competition_ingestion_dag to 2026-06-25 00:00:00+00:00, run_after=2026-06-26 00:00:00+00:00
+[2026-06-25T03:56:34.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/competition_ingestion_dag.py took 0.640 seconds
